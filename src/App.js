@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Functional from './Components/Functional'
+import Class from './Components/Class'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{textShadow:'5px 2px 3px #21E1E1',fontStyle:'italic'}}>Styling using Functional and class Component</h1><br></br><br></br>
+      <Functional />
+      <Class />
     </div>
   );
 }
